@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+</head>
+
+<body>
+    <h1><%= hospital_name %> </h1>
+    <form action="/patient/<%= hospital_id %>/new" method="POST" encType="multipart/form-data">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender: </label>
+            <input type="text" name="gender" id="gender">
+        </div>
+        <br>
+        <div>
+            <label for="address">Address: </label>
+            <input type="text" name="address" id="address">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="number">Phone Number: </label>
+            <input type="text" name="number" id="number">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="photo">Photo: </label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br>
+        <div>
+            <label for="psychiatrist_id">Psychiatrist Assigned: </label>
+            <select name="psychiatrist_id" id="psychiatrist_id">
+                <% for (let i = 0; i < psychiatrists.length; i++) { %>
+                    <option value="<%= psychiatrists[i].psychiatrist_id %>"><%= psychiatrists[i].psychiatrist_name %> </option>
+                <% } %>
+            </select>
+        </div>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

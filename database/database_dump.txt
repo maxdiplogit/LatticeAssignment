@@ -1,0 +1,91 @@
+________________________________________________________________________________________________
+
+
+		HOSPITALS DATA DUMP
+
++-------------+-----------------------------------------------------+
+| hospital_id | hospital_name                                       |
++-------------+-----------------------------------------------------+
+|           1 | Apollo Hospitals                                    |
+|           2 | Jawaharlal Nehru Medical College and Hospital       |
+|           3 | Indira Gandhi Institute of Medical Sciences (IGIMS) |
+|           4 | AIIMS - All India Institute of Medical Science      |
++-------------+-----------------------------------------------------+
+
+
+________________________________________________________________________________________________
+
+
+
+
+________________________________________________________________________________________________
+
+
+		PSYCHIATRISTS DATA DUMP
+
++-----------------+-------------+--------------------+
+| psychiatrist_id | hospital_id | psychiatrists_name |
++-----------------+-------------+--------------------+
+|               1 |           1 | Chloe              |
+|               2 |           1 | Jacob              |
+|               3 |           1 | Emily              |
+|               4 |           1 | Michael            |
+|               5 |           1 | Lauren             |
+|               6 |           2 | Aaron              |
+|               7 |           2 | Emma               |
+|               8 |           2 | Shawn              |
+|               9 |           2 | Aaliyah            |
+|              10 |           2 | Daniel             |
+|              11 |           3 | Jasmine            |
+|              12 |           3 | David              |
+|              13 |           3 | Olivia             |
+|              14 |           3 | Ryan               |
+|              15 |           3 | Jessica            |
+|              16 |           4 | James              |
+|              17 |           4 | Jennifer           |
+|              18 |           4 | Alex               |
+|              19 |           4 | Angelina           |
+|              20 |           4 | Christopher        |
++-----------------+-------------+--------------------+
+
+
+________________________________________________________________________________________________
+
+
+
+
+________________________________________________________________________________________________
+
+
+		PATIENTS DATA DUMP
+
++------------+-------------+-----------------+--------------+---------------------+--------------------+----------------+------------------+
+| patient_id | hospital_id | psychiatrist_id | patient_name | patient_address     | patient_email      | patient_number | patient_password |
++------------+-------------+-----------------+--------------+---------------------+--------------------+----------------+------------------+
+|          1 |           1 |               1 | Amanda       | Address of Amanda   | amanda@gmail.com   | 1234567890     | 1111             |
+|          2 |           2 |               6 | Jay          | Address of Jay      | jay@gmail.com      | 0123456789     | 1112             |
+|          3 |           3 |              11 | Anna         | Address of Anna     | anna@gmail.com     | 9234567890     | 1113             |
+|          4 |           4 |              16 | Abdullah     | Address of Abdullah | abdullah@gmail.com | 1234567899     | 1114             |
+|          5 |           1 |               1 | Tamara       | Address of Tamara   | tamara@gmail.com   | 9934567890     | 1115             |
+|          6 |           1 |               4 | Abdul        | Address of Abdul    | abdul@gmail.com    | 9753124680     | 1116             |
+|          7 |           2 |               9 | Harsh        | Address of Harsh    | harsh@gmail.com    | 9821435670     | 1117             |
+|          8 |           3 |              15 | Kunwar       | Address of Kunwar   | kunwar@gmail.com   | 6788765432     | 1118             |
+|          9 |           1 |               3 | Anshu        | Address of Anshu    | anshu@gmail.com    | 6543789211     | 1119             |
+|         10 |           2 |              10 | Tanya        | Address of Tanya    | tanya@gmail.com    | +15678923456   | 111111111        |
+|         11 |           1 |               5 | Anand        | Address of Anand    | anand@gmail.com    | +1234569872    | 555555555        |
+|         12 |           3 |              14 | Mara         | Address of Mara     | mara@gmail.com     | +44569871231   | 333333333        |
+|         13 |           4 |              19 | Deepak       | Address of Deepak   | deepak@gmail.com   | +2321456987    | 444444444        |
+|         14 |           2 |               8 | Shyla        | Address of Shyla    | shyla@gmail.com    | +8234165789    | 8888888888       |
+|         15 |           1 |               3 | Amit         | Address of Amit     | amit@gmail.com     | +14903215674   | 7468134973       |
+|         16 |           3 |              12 | Lila         | Address of Lila     | lila@gmail.com     | +97823564381   | kjahlndsg        |
+|         17 |           3 |              11 | Ram          | Address of Ram      | ram@gmail.com      | 97863571942    | ljdvablvf        |
+|         18 |           4 |              18 | Jai          | Address of Jai      | jai@gmail.com      | 6324921349     | kljghdvlcn       |
+|         19 |           1 |               4 | Ira          | Address of Ira      | ira@gmail.com      | 3912435214     | daljhsldgv       |
+|         20 |           2 |               7 | Anya         | Address of Anya     | anya@gmail.com     | 7263487561     | kjsbdvkbdf       |
+|         21 |           4 |              17 | Ida          | Address of Ida      | ida@gmail.com      | 9725802931     | kljabvkcjf       |
+|         22 |           1 |               2 | test         | Some Address value  | test@gmail.com     | 1111111111     | 555555555        |
+|         23 |           1 |               4 | test1        | Some test1 address  | test1@gmail.com    | 1234567891     | 0909090909       |
++------------+-------------+-----------------+--------------+---------------------+--------------------+----------------+------------------+
+
+
+________________________________________________________________________________________________
